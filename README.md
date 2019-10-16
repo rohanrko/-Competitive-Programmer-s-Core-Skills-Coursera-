@@ -1,2 +1,4 @@
 # -Competitive-Programmer-s-Core-Skills-Coursera-
-This reposository consist of study material and ysolutions of assignment problems
+This reposository consists of study material and solutions to assignment problems in the Coursera course of Competitive Programmer's Core Skills.
+
+https://www.coursera.org/learn/competitive-programming-core-skills
