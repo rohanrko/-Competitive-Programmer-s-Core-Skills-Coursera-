@@ -13,13 +13,38 @@ public class ErasingMaximum {
             a[i] = in.nextInt();
 
         int[] result = new int[n - 1];
-
+        int max_ele,count,index,flag;
         // your code
-
-        for (int i = 0; i < result.length; ++i) {
-            if (i != 0) out.print(' ');
-            out.print(result[i]);
+        //compute
+        max_ele = -1;
+        for(i=0;i<n;i++){
+            if(result[i]>max_ele){
+                max_ele = result[i];
+                count = 1;
+                index = i;
+            }
+            else if(result[i] == max_ele){
+                count++;
+                if(count==3){
+                    index = i;
+                }
+            }
         }
+        //output
+        flag=0;
+        if(index!=0){
+            out.print(result[0]);
+            flag=1;
+        }
+        for(i=1;i<n;i++){ 
+            if(i!=index){
+                if(!flag) flag=1;
+                else out.print(" ");
+                out.print(result[i]);
+            }
+        }
+
+
         out.println();
 
         in.close();
