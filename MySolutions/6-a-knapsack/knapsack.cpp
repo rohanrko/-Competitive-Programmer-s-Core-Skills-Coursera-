@@ -1,10 +1,7 @@
 #include <iostream>
 #include <vector>
-
-using std::cin;
-using std::cout;
-using std::endl;
-using std::vector;
+#include<bits/stdc++.h>
+using namespace std
 
 int main() {
     int n, W;
