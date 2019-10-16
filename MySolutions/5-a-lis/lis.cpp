@@ -1,21 +1,14 @@
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
+using namespace std
 
-using std::cin;
-using std::cout;
-using std::endl;
-using std::vector;
-
-int main() {
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    for (int i = 0; i < n; ++i)
-        cin >> a[i];
+void main() {
+    int m;
+    cin >> m;
+    vector<int> e(m);
+    for (int i = 0; i < m; ++i)
+        cin >> e[i];
 
     int result = 0;
-    // your code
-
     cout << result << endl;
 
     return 0;
